@@ -95,6 +95,15 @@ a{
         margin: 0 1rem;
         border-top: 1px solid $sec-color;
     }
+    .card-btn{
+        font-size: 13px;
+        border: solid 1px $sec-color;
+        padding: .2rem 1rem;
+        &:hover{
+            background-color: $sec-color;
+            color: whitesmoke;
+        }
+    }
 }
 .card-link{
     &:hover{
